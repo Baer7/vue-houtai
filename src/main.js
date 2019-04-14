@@ -16,11 +16,7 @@ var store = new Vuex.Store({
   },
   mutations:{
     addUserinfo(state,getInfo){  //登录时调用,将数据放在getInfo,然后存在state中
-     
       state.userInfoX = getInfo
-
-       // console.log(getInfo);
-      // console.log( state.userInfoX);
     }
   },
   getters:{}
